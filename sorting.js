@@ -1,4 +1,3 @@
-
 Array.prototype.selectionSort = function(desc) {
   let A = Object.assign([], this)
   for(let j = 1; j < A.length; j++) {
@@ -17,5 +16,5 @@ Array.prototype.selectionSort = function(desc) {
 
 /* -- Usage -- */
 let arr = [3, 8, 1, 6, 5, 4, 9, 2, 7]
-let ascending = arr.selectionSort()
-let descending = arr.selectionSort(true)
+let ascending = arr.selectionSort() // [1,2,3,4,5,6,7,8,9]
+let descending = arr.selectionSort(true) // [9,8,7,6,5,4,3,2,1]
